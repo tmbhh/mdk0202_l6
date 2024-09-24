@@ -14,9 +14,11 @@ public class Main {
         System.out.println("Cat goes " + cat.say());
         System.out.println("Bird goes " + bird.say());
         System.out.println("And mouse goes " + mouse.say());
-
-        ... // вызовите переопределённые методы
-
-
+        System.out.println("Cow goes " + cow.say());
+        System.out.println("Frog goes " + frog.say());
+        System.out.println("And the elephant goes " + elephant.say());
+        System.out.println("Ducks say " + duck.say());
+        System.out.println("And fish go " + fish.say());
+        System.out.println("And the seal goes " + seal.say());
     }
 }
