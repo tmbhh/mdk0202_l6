@@ -36,7 +36,7 @@ class Square extends  Figure{
 class Rectangle extends  Figure{
 }
 
-class Ellipse extends  Figure{
+class Ellipse extends  Circle{
 
 
     public void circleToEllipse() {
