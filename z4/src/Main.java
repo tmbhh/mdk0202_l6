@@ -45,7 +45,7 @@ public class Main {
         System.out.print("Время торможения до полной остановки: " + brakingTime + "c");
         checkResult(3, brakingTime);
         System.out.print("Скорость Q: " + testCar.speed + " км/ч");
-        checkResult(0.0, testCar.speed);
+        checkResult(0, testCar.speed);
     }
 
     private static void checkResult(double expect, double actual) {
